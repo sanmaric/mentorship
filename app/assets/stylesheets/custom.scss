@@ -24,17 +24,12 @@
 }
 
 .jumbotron {
-	background-image: asset-url('cover.jpg');
-	background-repeat: no-repeat;
+	background-image: asset-url('logo3.jpg');
 	background-size: cover;
-}
-
-.dugme {
-	margin-top: 300px;
-	background: transparent;
-	border: 6px solid #2d4453;
-	font-size: 30px;
-	color: #2d4453;
+	height: 300px;
+	width: 1100px;
+	margin-bottom: 90px;
+	margin-top: 30px;
 }
 
 .btn-warning {
@@ -43,4 +38,25 @@
 	text-decoration: none;
 	border: none;
 	font-size: 29px;
+}
+
+/*.btn-warnings{
+    background: transparent;
+    border: 2px solid black;
+	color: #682046;
+	text-decoration: none;
+	border: none;
+	font-size: 29px;
+	margin-top: 250px;
+	cursor: pointer;
+
+}*/
+
+.bt-w{
+	background: #682046;
+	color: white;
+}
+
+.jumb {
+	color: #009b5e;
 }
